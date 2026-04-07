@@ -1,0 +1,21 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_proc_sys_reset_0_0/sim/design_1_proc_sys_reset_0_0.vhd" \
+"../../../bd/design_1/ipshared/9ebe/src/PkgZmodDAC.vhd" \
+"../../../bd/design_1/ipshared/9ebe/src/ADI_SPI.vhd" \
+"../../../bd/design_1/ipshared/9ebe/src/ConfigDAC.vhd" \
+"../../../bd/design_1/ipshared/9ebe/src/GainOffsetCalib.vhd" \
+"../../../bd/design_1/ipshared/9ebe/src/SyncAsync.vhd" \
+"../../../bd/design_1/ipshared/9ebe/src/ResetBridge.vhd" \
+"../../../bd/design_1/ipshared/9ebe/src/SyncBase.vhd" \
+"../../../bd/design_1/ipshared/9ebe/src/ZmodAWG_1411_Controller.vhd" \
+"../../../bd/design_1/ip/design_1_ZmodAWGController_0_0/sim/design_1_ZmodAWGController_0_0.vhd" \
+"../../../bd/design_1/ipshared/c25f/src/PkgZmodADC.vhd" \
+"../../../bd/design_1/ipshared/c25f/src/ConfigADC.vhd" \
+"../../../bd/design_1/ipshared/c25f/src/ConfigRelays.vhd" \
+"../../../bd/design_1/ipshared/c25f/src/DataPath.vhd" \
+"../../../bd/design_1/ipshared/c25f/src/HandshakeData.vhd" \
+"../../../bd/design_1/ipshared/c25f/src/ZmodScopeController.vhd" \
+"../../../bd/design_1/ip/design_1_ZmodScopeController_0_0/sim/design_1_ZmodScopeController_0_0.vhd" \
+
+# Do not sort compile order
+nosort

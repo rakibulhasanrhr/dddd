@@ -1,0 +1,18 @@
+# Logs
+*.log
+*.jou
+*.str
+
+# Vivado generated files
+*.cache/
+*.runs/
+*.gen/
+*.hw/
+
+# Project files (optional depending on workflow)
+*.xpr
+*.wcfg
+
+# OS files
+.DS_Store
+Thumbs.db

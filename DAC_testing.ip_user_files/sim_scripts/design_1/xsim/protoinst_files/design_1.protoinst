@@ -1,0 +1,28 @@
+{
+	"version": "1.0",
+	"modules": {
+		"design_1": {
+			"proto_instances": {
+				"/ZmodAWGController_0/InputDataStream": {
+					"interface": "xilinx.com:interface:axis:1.0",
+					"ports": {
+						"ACLK": { "actual": "DAC_InIO_Clk"},
+						"TDATA": { "actual": "cDataAxisTdata[31:0]"},
+						"TREADY": { "actual": "cDataAxisTready"},
+						"TVALID": { "actual": "cDataAxisTvalid"}
+					}
+				},
+				"/pam2_dac_tester_top_0/m_axis": {
+					"interface": "xilinx.com:interface:axis:1.0",
+					"ports": {
+						"ACLK": { "actual": "m_axis_aclk"},
+						"ARESETN": { "actual": "m_axis_aresetn"},
+						"TDATA": { "actual": "m_axis_tdata[31:0]"},
+						"TREADY": { "actual": "m_axis_tready"},
+						"TVALID": { "actual": "m_axis_tvalid"}
+					}
+				}
+			}
+		}
+	}
+}

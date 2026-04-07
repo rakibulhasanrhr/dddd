@@ -1,0 +1,15 @@
+verilog xil_defaultlib --include "../../../../DAC_testing.gen/sources_1/bd/design_1/ipshared/3cbc" --include "../../../../DAC_testing.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" --include "../../../../DAC_testing.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" --include "../../../../DAC_testing.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" --include "../../../../DAC_testing.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" \
+"../../../bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v" \
+"../../../bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v" \
+"../../../bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" \
+"../../../bd/design_1/ip/design_1_xlconstant_1_0/sim/design_1_xlconstant_1_0.v" \
+"../../../bd/design_1/ip/design_1_xlconstant_2_0/sim/design_1_xlconstant_2_0.v" \
+"../../../bd/design_1/ip/design_1_pam2_dac_tester_top_0_0/sim/design_1_pam2_dac_tester_top_0_0.v" \
+"../../../bd/design_1/ip/design_1_ZmodScopeController_0_0/src/ZmodADC_SynchonizationFIFO/sim/ZmodADC_SynchonizationFIFO.v" \
+"../../../bd/design_1/sim/design_1.v" \
+"../../../bd/design_1/ip/design_1_ila_0_0/sim/design_1_ila_0_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
